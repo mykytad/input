@@ -10,6 +10,9 @@
 			padding: 0;
 			font-size: 20px;
 		}
+		div>div{
+			padding: 10px 0;
+		}
 		.container{
 			width: 1000px;
 			background: purple;
@@ -24,6 +27,7 @@
 			margin: 0 auto;
 		}
 		.placeholder{
+			margin:10px 0;
 			height: 30px;
 		}
 		/*placeholder*/
@@ -40,6 +44,7 @@
 				margin: 0;
 			}
 		.select{
+			margin: 10px 0;
 			position: relative;
 		}
 		.in_select{
@@ -49,7 +54,7 @@
 		.in_select:before{
 			content: "";
 			position: absolute;
-			background: url('../img/dot.png');
+			background: url('img/dot.png');
 			background-position: 10px 10px;
 		}
 		input[type="checkbox"] {
@@ -73,13 +78,13 @@
 				content: "";
 				display: inline-block;
 				position: absolute;
+				top:118%;
+				left:0.5%;
 				width: 40px;
 				height: 40px;
 				border-radius: 50%;
 				background: #3bb778;
 				border: 1px solid #000;
-				top:106%;
-				left:0.5%;
 				transition: all .5s linear;
 			}
 			input[type="checkbox"]:checked+label:after {
